@@ -16,6 +16,7 @@ packages: selenium(webdriver), xlsxwriter, xlrd, xlwt, xlutils, pandas
 3. argument two: password for Linkedin Account
 4. argument three: input file. This file should be .xlsx and it must be existing since it contains the jobs you want to crawl.
 5. argument four: output file. This file should also be .xlsx and it isn't necessarily an existing file. 
+
 For example:
 python LinJDSpider.py username@gmail.com 123456 input.xlsx output.xlsx     
 
